@@ -1,4 +1,5 @@
 *{
+    /* Resetando a configuração padrão */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,10 +7,19 @@
 }
 
 body{
-    background-color: #2ab3a6;
+    /* Cor do fundo */
+    background-color: whitesmoke;
+}
+
+.info{
+    /* Estilo dos titulos */
+    text-align: center;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 
 .result{
+    /* Estilo do visor da Calculadora */
     height: 100px;
     color: #dfdfdf;
     text-align: right;
@@ -19,6 +29,7 @@ body{
 }
 
 .calculator{
+    /* Estilo da Calculadora */
     width: 250px;
     position: absolute;
     top: 50%;
@@ -30,15 +41,17 @@ body{
 }
 
 table td{
+    /* Configuração da tabela dos botões */
     display: inline-block;
 }
 
 .btn{
+    /* Estilo dos botões */
     margin: 3px;
     width: 50px;
     height: 40px;
     cursor: pointer;
-    border: none;
+    border-radius: 5px;
     background-color: #0c1a21;
     color: #dfdfdf;
     font-size: 16px;
@@ -46,10 +59,12 @@ table td{
 }
 
 .btn:hover{
+    /* Cor de fundo do botão ao passar o mouse */
     background-color: #162f3b;
 }
 
 .ac{
+    /* Cor do fundo do botão */
     background-color: #1b7269;
 }
 
@@ -71,4 +86,9 @@ table td{
 
 .igual:hover{
     background-color: #25968a;
+}
+
+#rodape{
+    /* Estilo do roda-pé */
+    border-top: 0.4px solid #000807;
 }
