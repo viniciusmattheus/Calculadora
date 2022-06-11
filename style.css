@@ -11,13 +11,6 @@ body{
     background-color: whitesmoke;
 }
 
-.info{
-    /* Estilo dos titulos */
-    text-align: center;
-    padding: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-}
-
 .result{
     /* Estilo do visor da Calculadora */
     height: 100px;
@@ -86,9 +79,4 @@ table td{
 
 .igual:hover{
     background-color: #25968a;
-}
-
-#rodape{
-    /* Estilo do roda-pé */
-    border-top: 0.4px solid #000807;
 }
